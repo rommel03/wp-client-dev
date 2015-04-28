@@ -1,0 +1,62 @@
+/*
+* Theme Name: Studio Director
+* Template: enfold
+*/
+
+@import url("../enfold/style.css");
+
+
+#top p, #top li, #top ul {
+	color: #646464
+}
+
+#top h1, #top h2, #top h3, #top h4, #top h5, #top h6 {
+    color: #646464;
+    font-family: "Raleway",Arial,Helvetica,sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 1px #fff;
+}
+
+#top.page h1 strong,#top.page  h2 strong,#top.page  h3 strong,#top.page  h4 strong,#top.page  h5 strong,#top.page  h6 strong,#top.page  p strong {
+	color: #fe9906;
+}
+
+.page .iconbox_icon {
+    background: none repeat scroll 0 0 #fe9906;
+    border: 0 none;
+    color: #fff !important;
+}
+
+.page .av_font_icon {
+    background: none repeat scroll 0 0 #fe9906;
+    border-radius: 50%;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.page  .av_font_icon .av-icon-char {
+    font-size: 25px !important;
+}
+
+#home-top-icon h2 {
+    font-size: 35px;
+    text-transform: none;
+}
+
+#home-top-icon h2 strong {
+	font-weight: bolder;
+}
+
+#home-top-icon h3.iconbox_content_title {
+    font-size: 20px;
+    text-transform: none;
+}
+
+#home-top-icon .iconbox_icon {
+    font-size: 60px !important;
+    padding: 20px !important;
+}
+
+#home-top-icon .av_one_third {
+    margin-top: 0;
+}

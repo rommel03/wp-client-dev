@@ -1,0 +1,397 @@
+/*
+* Theme Name: Studio Director
+* Template: enfold
+*/
+
+@import url("../enfold/style.css");
+body{font-family: Raleway, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif!important; font-size:14px!important;}
+
+.page .iconbox_content_title{text-transform:none!important; font-size:18px!important; color:#646464; padding-top:4px!important;overflow:visible!important;}
+.page .iconbox_icon .iconbox_left  {margin:0px!important;}
+#top #header .av-main-nav > li > a .avia-menu-text, #top #header .av-main-nav > li > a .avia-menu-subtext{font-weight:normal;}
+.template-page .entry-content-wrapper h1, .template-page .entry-content-wrapper h2{text-transform:none;}
+.orangehighlight{color: #fe9906 !important;}
+.togglecontainer .single_toggle:first-child .toggler, .togglecontainer .taglist + .single_toggle .toggler{color:#6b67fb; font-weight:bold;}
+.light{color:white!important; font-size:36px!important;}
+.avia-button.avia-size-x-large{font-size: 18px;    font-weight: bolder;    padding: 8px 35px !important;    text-shadow: 2px 1px #333;}
+.avia-button.avia-size-x-large:hover{background-color:#fe9906!important;}
+.lightondark{color:#b7b7b7; font-size: 15px; margin:20px 0 !important ; }
+.lightondark  span { margin: 0 8px;}
+#top .iconbox.av-no-box .iconbox_icon{width:120px; height:120px; font-size:55px;line-height:120px; border: 0;}
+#main-title-home{height:110px!important;}
+#home-top-icon h3{font-size:24px!important;}
+.large-text{font-size:24px!important;}
+#icon-left-home div.iconbox_icon{width:40px;height:40px;line-height:40px;margin-right:10px;}
+#icon-left-home .content{padding-top:0px; padding-bottom:20px;}
+#special-list a{color:#6b67fb;font-weight:bold;text-decoration:none;}
+#special-list li{list-style-type:none;}
+
+@media screen and (min-width:980px) and (max-width:1060px) {
+	#top.home .ls-fullwidth .ls-thumbnail-inner {
+    margin-top: 5%;
+		}
+}
+
+@media screen and (min-width:769px) and (max-width:979px) {
+	#top.home .ls-fullwidth .ls-thumbnail-inner {
+    margin-top: 7%;
+		}
+}
+
+
+@media screen and (min-width:735px) and (max-width:768px) {
+	#top.home .ls-fullwidth .ls-thumbnail-inner {
+    margin-top: 10%;
+		}
+}
+
+@media screen and (min-width:615px) and (max-width:734px) {
+	#top.home .ls-fullwidth .ls-thumbnail-inner {
+    margin-top: 15%;
+		}
+}
+
+@media screen and (max-width:614px)  {
+	#top.home .ls-fullwidth .ls-thumbnail-inner {
+    display:none;
+		}
+}
+
+
+@media screen and (max-width:582px)  {
+	#top.home #main-title-home {
+    height: auto !important;
+}
+}
+
+#top .av_two_third span.wpcf7-checkbox > span input {
+    width: auto;
+}
+
+#top .av_two_third .wpcf7-form input {
+    border-radius: 5px;
+    /*margin-bottom: 25px;*/
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 95%;
+}
+
+.#top .av_two_third .wpcf7-form span.wpcf7-not-valid-tip {
+	margin-bottom: 10px;
+}
+
+
+#top.page .av_two_third .wpcf7-not-valid-tip {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#top.page .wpcf7-checkbox .wpcf7-list-item {
+    display: block;
+    margin-left: 10px;
+    /*padding: 5px 0;*/
+    width: 100%;
+}
+
+#top .av_two_third .wpcf7-form input.wpcf7-submit {
+    border-radius: 3px;
+    padding: 10px 15px;
+    width: auto;
+}
+form.wpcf7-form .av-content-full h5 span {
+    float: right;
+    margin-top: 10px;
+}
+form.wpcf7-form .av-content-full h5 {
+    display: inline-block;
+}
+form.wpcf7-form.invalid .wpcf7-not-valid-tip {
+    height: 0;
+    margin-bottom: 0 !important;
+    padding-left: 15px;
+    position: relative;
+    top: -45px;
+}
+
+
+
+#top.page .av_one_third .avia-testimonial p {
+    font-style: italic;
+}
+
+
+#top.page .av_one_third .avia-testimonial-content {
+    border-left: 5px solid #fe9906 !important;
+    opacity: 1;
+    padding: 20px 20px 0;
+}
+
+#top.page .av_one_third .avia-testimonial-meta {
+	padding: 0px 20px 0;
+	border-left: 5px solid #fe9906 !important;
+    opacity: 1;
+    margin-bottom: 10px !important;
+}
+
+#top.page .av_one_third .avia-testimonial-row .avia-testimonial {
+    border:0;
+    padding: 0;
+}
+
+#top.page .av_one_third .avia-testimonial-meta, #top.page .av_one_third .avia-testimonial-meta strong {
+    color: #666;
+    font-style: italic !important;
+}
+
+#top.page .av_one_third .avia-testimonial-row .avia-testimonial .avia-testimonial-meta, #top.page .av_one_third .avia-testimonial-row .avia-testimonial strong {
+    color: #666;
+    margin: 0;
+}
+
+#top .av_two_third .wpcf7-form .av_one_fourth span, #top .av_two_third .wpcf7-form .av-content-full h5 span {
+    font-size: 30px;
+    color:#ff9908;
+}
+
+#top.page .av_two_third table tr td, #top.page .av_two_third table tr td strong {
+    color: #666;
+    text-align: center;
+}
+
+#top.page .av_two_third table tr td .av_font_icon {
+    background: none repeat scroll 0 0 #75b030;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 auto 0 30%;
+    padding: 5px 10px 4px;
+}
+
+#top.page .avia_codeblock cta-content {
+    background: none repeat scroll 0 0 #282828;
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+
+#top.page #wrap_all .av_two_third .avia_codeblock cta-content h3 {
+    color: #fe9906;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#top.page #wrap_all .av_two_third .avia_codeblock cta-content h3 span {
+    color: #fff;
+}
+
+
+#top.page #wrap_all .av_two_third .avia_codeblock cta-content p.contact-details {
+    color: #fe9906;
+}
+
+#top.page #wrap_all .av_two_third .avia_codeblock cta-content p.contact-details span a {
+    color: #999;
+}
+
+#top.page #wrap_all .av_two_third .avia_codeblock cta-content a.button-cta {
+    background: none repeat scroll 0 0 #484848;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px auto 0;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+    width: 200px;
+}
+
+#top.page #wrap_all .av_two_third .avia_codeblock cta-content a.button-cta:hover {
+    background-color: #fe9906;
+}
+
+
+#top.page .av_one_third .avia_codeblock money-back {
+    background: none repeat scroll 0 0 #ffd251;
+    border: 1px solid #fe9906;
+    border-radius: 10px;
+    display: block;
+    padding: 15px 20px;
+}
+
+#top.page .av_one_third .wpcf7-form input {
+    border-radius: 3px;
+    margin: 0;
+    width: 100%;
+}
+
+
+#top.page .av_one_third .wpcf7-form input {
+    border-radius: 3px;
+    margin: 0;
+    width: 100%;
+}
+
+#top.page .av_one_third .wpcf7-form input.wpcf7-submit {
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-top: -7px;
+    width: 150px;
+}
+
+#top.page .av_one_third .wpcf7-form input {
+    border-radius: 3px;
+    margin: 0;
+    width: 100%;
+}
+
+#top.page .av_one_third .wpcf7-form textarea {
+height:50px;
+margin-bottom: 0;
+}
+
+#top.page-id-25 .av_two_third .avia_codeblock table td {
+    text-align: left;
+}
+
+#top.page .av_two_third .avia_codeblock .av_one_fourth {
+    text-align: center;
+}
+
+
+#top.page .avia_codeblock cta-content h5.textlink a {
+    color: #fe9906;
+}
+
+#top.home .avia-layerslider .ls-thumbnail .ls-thumbnail-inner, #top.home .avia-layerslider .ls-thumbnail, #top.home .avia-layerslider .ls-thumbnail .ls-thumbnail-inner .ls-thumbnail-slide-container {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none !important;
+}
+
+#top.single-post .related_posts {
+    display: none;
+}
+
+#top.page .avia_textblock li {
+    list-style: outside url("http://studiodirector.clientdevspace.com/wp-content/uploads/2015/04/list-bullet-orange.png") disc;
+}
+
+
+#top.page #special-list > li {
+    font-size: 14px;
+    line-height: 25px;
+    margin: 5px 0;
+}
+
+#top.page .av_two_third .av_four_fifth.desc-text {
+    margin: 0;
+}
+
+
+#top.page .avia_textblock li > ul li {
+    display: inline-table;
+    list-style: outside none none;
+    vertical-align: middle;
+}
+#top.page .avia_textblock li > ul  {
+	margin:0;
+}
+
+
+#top.home #home-top-icon .avia-image-container img {
+    background: #fe9906;
+}
+
+#top.home #home-top-icon .av_textblock_section p a {
+    font-size: 24px;
+    color: #646464;
+    font-weight: 800;
+    margin-top:8px;
+    text-decoration: none;
+}
+
+#top.home #home-top-icon .av_textblock_section p a:hover {
+	color: #fe9906;
+}
+
+form.wpcf7-form .flex_column.first {
+    padding-top: 6px;
+    text-align: right;
+}
+form.wpcf7-form .flex_column.first span {
+    float: right;
+    height: 8px;
+    margin-top: 8px;
+}
+
+form.wpcf7-form .av_three_fourth {
+    margin-left: 2%;
+}
+form.wpcf7-form.invalid .wpcf7-form-control-wrap.option-1 .wpcf7-not-valid-tip {
+    top: -7px;
+}
+.avia_codeblock table tr:first-child td {
+    line-height: 20px;
+}
+.avia_codeblock table tr:first-child td strong {
+    font-size: 15px;
+    font-weight: bold;
+}
+.avia_codeblock table tr:first-child td:nth-child(3), 
+.avia_codeblock table tr:first-child td:nth-child(3) strong,
+.avia_codeblock table tr:first-child td:nth-child(4), 
+.avia_codeblock table tr:first-child td:nth-child(5) strong,
+.avia_codeblock table tr:first-child td:nth-child(5), 
+.avia_codeblock table tr:first-child td:nth-child(4) strong,
+.avia_codeblock table tr:first-child td:last-child, 
+.avia_codeblock table tr:first-child td:last-child strong
+ {
+    font-weight: normal !important;
+}
+
+.check-icon span {
+    display: none;
+}
+
+.check-icon {
+    background: url("images/correct.png") no-repeat scroll center center transparent;
+}
+a.nowrap{ display:block; white-space:nowrap;}
+#top.page-id-17 .avia_textblock li {
+    list-style: outside url("images/list-bullet-checkmark.png") disc;
+}
+.page-id-307 form.wpcf7-form.invalid .wpcf7-not-valid-tip {
+    background: none repeat scroll 0 0 #fff;
+    display: block !important;
+    height: 89%;
+    margin-bottom: 0 !important;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 7px;
+    position: absolute;
+    top: 2px;
+    width: 80%;
+}
+.page-id-307 span.wpcf7-form-control-wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.blog .template-blog .blog-meta {
+display:none;
+}
+
+.blog .template-blog .post_author_timeline {
+    display: none;
+}
+
+.blog .template-blog .post_delimiter {
+    border-bottom: 1px dashed #e0e0e0;
+	}
+	
+	
+	#top .bolder-font { font-weight:bold; }
+	
+#top.page .av_two_third .avia_codeblock .av_four_fifth, #top.page .av_two_third .avia_codeblock .av_one_fifth {
+    margin-bottom: 10px;
+}
